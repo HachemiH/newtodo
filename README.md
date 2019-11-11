@@ -14,4 +14,4 @@
   a. Création du fichier `.env` : `touch .env`
   b. Création de la première variable d'environnement : `PORT=4000`
   c. Test d'import + test du fonctionnement de `dotenv`
-
+5. Ajout du template Bootstrap dans les `pug` views
