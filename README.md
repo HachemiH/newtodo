@@ -9,4 +9,4 @@
   c. Installation des presets de base pour Babel : `npm install @babel/preset-env --save-dev`
   d. Création du fichier de configuration pour Babel : `touch .babelrc`
   e. Ajout des presets dans le `.babelrc` 
-
+3. Refactoriser tous les `require` en `import`
