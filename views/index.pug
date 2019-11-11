@@ -1,5 +1,26 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container
+    h1.display-4.text-center.py-1 To-Do App
+    .jumbotron.p-3.shadow-sm
+      form
+        .d-flex.align-items-center
+          input.form-control.mr-3(autofocus='' autocomplete='off' type='text' style='flex: 1;')
+          button.btn.btn-primary Add New Item
+    ul.list-group.pb-5
+      li.list-group-item.list-group-item-action.d-flex.align-items-center.justify-content-between
+        span.item-text Fake example item #1
+        div
+          button.edit-me.btn.btn-secondary.btn-sm.mr-1 Edit
+          button.delete-me.btn.btn-danger.btn-sm Delete
+      li.list-group-item.list-group-item-action.d-flex.align-items-center.justify-content-between
+        span.item-text Fake example item #2
+        div
+          button.edit-me.btn.btn-secondary.btn-sm.mr-1 Edit
+          button.delete-me.btn.btn-danger.btn-sm Delete
+      li.list-group-item.list-group-item-action.d-flex.align-items-center.justify-content-between
+        span.item-text Fake example item #3
+        div
+          button.edit-me.btn.btn-secondary.btn-sm.mr-1 Edit
+          button.delete-me.btn.btn-danger.btn-sm Delete
